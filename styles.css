@@ -3,7 +3,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     /* header section */
 }
-header{
+header {
     background-color: #333;
     color: white;
     padding: 10px 20px;
@@ -15,11 +15,11 @@ header nav ul{
     gap: 20px;
 
 }
-header nav ul li a{
+header nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 5rem;
 }
 
 header nav ul li a:hover {
@@ -65,14 +65,14 @@ margin: 20px 0;
     color: #455;
 }
 /* Skills section */
-.skills {
+.skill {
     padding: 50px 20px;
-    text-align: center;
+    text-align: right;
 }
-.skills h2{
+.skill h2{
     font-size: 2.5rem;
 }
-.skills-list{
+.skill-list{
     display: flex;
     justify-content: space-around;
     gap: 20px;
