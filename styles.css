@@ -1,78 +1,77 @@
-body{
+body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    /* header section */
 }
+/* Header Section */
 header {
     background-color: #333;
-    color: white;
+    color:white;
     padding: 10px 20px;
 }
-header nav ul{
+header nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
-
+    gap: 30px;
 }
+
 header nav ul li a {
-    color: white;
+    color:white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 header nav ul li a:hover {
     text-decoration: underline;
-color: darkorange;
+    color:rgb(4, 200, 249);
 }
-/* hero section */
+/* Hero Section */
 .hero {
-    background-color: cadetblue;
+    background-color: rgb(4, 200, 249);
     color: white;
-    text-align: center ;
+    text-align: center;
     padding: 100px 20px;
 }
-.hero-content h1{
-    font-size: 3rem;
-margin: 20px 0;
+.hero-content h1 {
+    font-size: 5rem;
 }
-
-.hero-content p{
-    font-size: 1.5rem;
+.hero-content p {
+    font-size: 3rem;
     margin: 20px 0;
-
 }
 .cta-button {
-    background-color:#000000;
+    background-color: #061106;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
 }
-/*About Section */
+
+/* About section */
 .about {
     padding: 50px 20px;
     text-align: center;
     background-color: #f1f1f1;
 }
-h2{ 
+h2 {
     font-size: 3rem;
 }
 h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 p {
     font-size: 1.2rem;
-    color: #4CAF50;
+    color: #555;
 }
-/* Skills section */
-.skill {
+
+/* Skills Section */
+.skills {
     padding: 50px 20px;
-    text-align: right;
+    text-align: center;
 }
-.skill h2 {
+.skills h2 {
     font-size: 2.5rem;
 }
 .skill-list {
@@ -82,23 +81,59 @@ p {
     flex-wrap: wrap;
 }
 .skill-item {
-    padding:20px;
+    padding: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
     width: 25%;
 }
 
+/* Projects Section */
+.projects {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project img {
+    width: 60%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
 /* Contact Section */
 .contact {
     background-color: #333;
-    color: white;
+    color:white;
     padding: 50px 20px;
     text-align: center;
 }
-.contact-container{
+.contact-container {
     display: flex;
     justify-content: space-between;
-    gap: 30px ;
+    gap: 30px;
     flex-wrap: wrap;
 }
 .contact-info {
@@ -106,29 +141,57 @@ p {
 }
 .contact-item {
     background-color: #444;
-    padding: 20px ;
+    padding:20px;
     border-radius: 10px;
     margin-bottom: 15px;
     text-align: center;
 }
 .contact-item a {
-    color: #4CAF50;
+    color: rgb(4, 200, 249);
     text-decoration: none;
     font-weight: bold;
 }
 .contact-item a:hover {
     text-decoration: underline;
-    color: white;
+    color:white;
 }
+
 .contact-form {
     width: 45%;
     background-color: #444;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 10px
 }
 .contact-form input, .contact-form textarea {
-    width: 100%;
+    width:90%;
     padding: 12px;
     margin-bottom: 15px;
     border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-size: 1rem;
+}
+
+.contact-form button[type="submit"] {
+    background-color: rgb(4, 200, 249);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
 }
